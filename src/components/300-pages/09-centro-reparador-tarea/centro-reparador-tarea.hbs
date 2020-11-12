@@ -1,0 +1,57 @@
+<div class="page">
+
+  {{> @navbar }}
+
+  <main class="main-content">
+    <article class="main-content__item">
+      <div class="main-content__header">
+        <h2 class="main-content__heading">
+          <span class="main-content__heading-icon">
+            <svg>
+              <use xlink:href="../../img/sprite.svg#center">
+            </svg>
+          </span>
+          {{pageHeading}}
+        </h2>
+        <h3 class="main-content__subheading">{{pageSubheading}}</h3>
+      </div>
+
+      <div class="main-content__content">
+        {{render '@progressbar'}}
+
+        <div class="main-content__actions main-content__actions--margin">
+          <div class="main-content__actions-col">
+            <form action="">
+              {{> @input-file btnIcon=true btnIconType="import" btnArrow=true inputLabel="Importar excel de materiales fabricados"}}
+
+              <div class="main-content__actions-button">
+                <p class="form-control__upload-name"></p>
+                {{> @button--primary btnModifier="btn--primary" btnText="Enviar"}}
+              </div>
+            </form>
+          </div>
+          <div class="main-content__actions-col">
+            {{> @button--special-action btnModifier="btn--inverse btn--icon btn--arrow" btnIcon=true btnIconType="barcode" btnArrow=true btnText="Captura de material (Código de barras)"}}
+          </div>
+          <div class="main-content__actions-col">
+            {{> @button--special-action btnModifier="btn--inverse btn--icon btn--arrow" btnIcon=true btnIconType="insert" btnArrow=true btnText="Inserción manual de materiales"}}
+          </div>
+
+        </div>
+
+        <div class="main-content__actions main-content__actions--margin">
+          {{> @dropdown dropdownLabel="Seleccionar proyecto-site"}}
+        </div>
+
+        {{render '@form'}}
+
+        <div class="main-content__actions main-content__actions--fixed">
+          {{> @button--primary btnModifier="btn--primary" btnText="Reparado"}}
+          {{> @button--primary btnModifier="btn--primary" btnText="Retirado"}}
+          {{> @button--quaternary btnModifier="btn--quaternary" btnText="Reclamación"}}
+        </div>
+      </div>
+    </article>
+  </main>
+
+</div>

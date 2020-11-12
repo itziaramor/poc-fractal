@@ -1,0 +1,35 @@
+// ------------------------------------------------------
+// FORM
+// ------------------------------------------------------
+
+.form-box {
+  padding: rem(27px) rem(24px);
+  border-radius: $border-radius-base;
+  box-shadow: 0 1px 4px 0 $gray-200;
+  background-color: $white;
+
+  @include media-breakpoint-up(md) {
+    padding: rem(29px) rem(36px);
+  }
+
+  form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    @include media-breakpoint-up(lg) {
+      flex-wrap: nowrap;
+    }
+  }
+
+  &__col {
+    width: 100%;
+
+    @include media-breakpoint-up(lg) {
+      width: 50%;
+      padding: 0 rem(20px);
+    }
+
+
+  }
+}

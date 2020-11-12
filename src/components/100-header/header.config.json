@@ -1,0 +1,13 @@
+{
+  "title": "Header",
+  "variants": [
+    {
+      "name": "Extended",
+      "context": {
+        "headerModifier": "site-header--extend",
+        "home": true,
+        "claim": true
+      }
+    }
+  ]
+}

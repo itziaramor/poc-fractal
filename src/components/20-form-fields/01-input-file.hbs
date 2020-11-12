@@ -1,0 +1,21 @@
+<div class="form-control form-control--input">
+  <label for="file-upload" class="btn btn--inverse btn--icon btn--arrow">
+    {{#btnIcon}}
+    <span class="btn__icon">
+      <svg>
+        <use xlink:href="../../img/sprite.svg#{{btnIconType}}">
+      </svg>
+    </span>
+    {{/btnIcon}}
+    <span>{{inputLabel}}</span>
+    {{#btnArrow}}
+    <span class="btn__icon btn__icon--arrow">
+      <svg>
+        <use xlink:href="../../img/sprite.svg#arrowRight">
+      </svg>
+    </span>
+    {{/btnArrow}}
+  </label>
+  <input id="file-upload" name="file-upload" type="file" style="display:none;" class="form-control__upload">
+</div>
+<!-- <p class="form-control__upload-name"></p> -->

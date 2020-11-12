@@ -1,0 +1,17 @@
+<a href="#" class="btn {{btnModifier}}">
+  {{#btnIcon}}
+  <span class="btn__icon">
+    <svg>
+      <use xlink:href="../../img/sprite.svg#{{btnIconType}}">
+    </svg>
+  </span>
+  {{/btnIcon}}
+  <span>{{btnText}}</span>
+  {{#btnArrow}}
+  <span class="btn__icon btn__icon--arrow">
+    <svg>
+      <use xlink:href="../../img/sprite.svg#arrowRight">
+    </svg>
+  </span>
+  {{/btnArrow}}
+</a>

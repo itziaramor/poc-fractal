@@ -1,0 +1,78 @@
+// ------------------------------------------------------
+// FORM
+// ------------------------------------------------------
+
+.form-control {
+  width: 100%;
+  margin-bottom: rem(16px);
+  display: flex;
+  flex-direction: column;
+  &__label {
+    margin-bottom: rem(6px);
+    font-weight: 400;
+    font-size: rem(16px);
+    color: $gray-400;
+    text-transform: uppercase;
+    display: block;
+  }
+
+  &__input,
+  &__textarea {
+    padding: rem(6px) rem(19px);
+    border-radius: $border-radius-base;
+    border: 2px solid $border-color-base;
+    font-size: rem(16px);
+    font-weight: 400;
+    color: $gray-600;
+
+    &:focus {
+      border: 2px solid $blue;
+      box-shadow: none;
+      outline: none;
+    }
+
+    &::-webkit-input-placeholder {
+      font-size: rem(16px);
+      color: $gray-600;
+    }
+    &:-ms-input-placeholder {
+      font-size: rem(16px);
+      color: $gray-600;
+    }
+    &::placeholder {
+      font-size: rem(16px);
+      color: $gray-600;
+    }
+
+    &:read-only {
+      pointer-events: none;
+
+      &:focus {
+        border: none;
+      }
+    }
+  }
+
+  &__input {
+    min-height: rem(46px);
+  }
+
+  &__textarea {
+    min-height: rem(242px);
+    padding: rem(22px) rem(30px);
+    line-height: rem(27px);
+    resize: none;
+  }
+
+  // states
+  &--error {
+    .form-control__input {
+      border: 2px solid $danger;
+      color: $danger;
+
+      &:focus {
+        border-color: $danger;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+// ------------------------------------------------------
+// UTILITIES
+// ------------------------------------------------------
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.zoom {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  &__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-color: $white;
+    box-shadow: 0 2px 4px rgba($black, 0.5);
+    transform: translate3d(-50%, -50%, 0);
+  }
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}

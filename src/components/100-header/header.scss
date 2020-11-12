@@ -1,0 +1,25 @@
+// ------------------------------------------------------
+// SITE HEADER
+// ------------------------------------------------------
+
+.site-header {
+  display: flex;
+  //flex-direction: column;
+  justify-content: flex-start;
+  padding-top: rem(65px);
+  padding-bottom: rem(15px);
+  padding-left: rem($site-header-padding-left-sm);
+
+  @include media-breakpoint-up(md) {
+    padding-top: rem(25px);
+    padding-bottom: rem(19px);
+    padding-left: rem(19px);
+  }
+
+  img {
+    display: none;
+    @include media-breakpoint-up(md) {
+      display: flex;
+    }
+  }
+}

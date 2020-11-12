@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
+    <title>Icons/24px/edit Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Pantallas" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop_02" transform="translate(-29.000000, -117.000000)">
+            <g id="Icons/24px/edit-Copy" transform="translate(41.000000, 129.000000) scale(-1, 1) translate(-41.000000, -129.000000) translate(29.000000, 117.000000)">
+                <rect id="Rectangle" fill-opacity="0" fill="#FF0000" x="0" y="0" width="24" height="24"></rect>
+                <path d="M19,7 L15,3 L2,16 L2,20 L6,20 L19,7 Z M23,18 L21,20 L9,20 L11,18 L23,18 Z M15,6 L16,7 L5,18 L4,18 L4,17 L15,6 Z" id="Combined-Shape" fill="#B5C5D5"></path>
+                <path d="M0.00499895812,0.005 L0,23.995 L23.995,24 L24,0.005 L0.00499895812,0.005 Z" id="Path" stroke-opacity="0.01" stroke="#000000" stroke-width="0.01"></path>
+            </g>
+        </g>
+    </g>
+</svg>

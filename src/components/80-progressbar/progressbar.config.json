@@ -1,0 +1,38 @@
+{
+  "title": "Progressbar",
+  "context": {
+    "stepbar": [
+      {
+        "label": "Fábrica",
+        "step": true,
+        "stepbarIcon": "factory"
+      },
+      {
+        "label": "Almacén",
+        "step": true,
+        "stepbarModifier": "step-bar__item--current",
+        "stepbarIcon": "registry"
+      },
+      {
+        "label": "Campo",
+        "step": true,
+        "stepbarIcon": "delivery"
+      },
+      {
+        "label": "Site",
+        "step": true,
+        "stepbarIcon": "site"
+      },
+      {
+        "label": "Centro reparador",
+        "step": true,
+        "stepbarIcon": "center"
+      },
+      {
+        "label": "Almacén",
+        "step": true,
+        "stepbarIcon": "registry"
+      }
+    ]
+  }
+}

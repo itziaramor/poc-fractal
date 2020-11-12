@@ -1,0 +1,7 @@
+{
+  "title": "Textarea",
+  "context": {
+    "textareaLabel": "Label",
+    "textareaPlaceholder": "Introducir acción. 35 palabras maximo."
+  }
+}

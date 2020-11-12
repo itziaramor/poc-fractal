@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
+    <title>Icons/24px/application</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Pantallas" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop_03" transform="translate(-367.000000, -367.000000)">
+            <g id="Group-4" transform="translate(367.000000, 367.000000)">
+                <g id="Icons/24px/application">
+                    <rect id="Rectangle" fill-opacity="0" fill="#FF0000" x="0" y="0" width="36" height="36"></rect>
+                    <path d="M16.5,10.5 L24.0922852,10.5 L24.0922852,13.5 L16.5,13.5 L16.5,10.5 Z M16.5,16.5 L24.0922852,16.5 L24.0922852,19.5 L16.5,19.5 L16.5,16.5 Z M16.5,22.5 L24.0922852,22.5 L24.0922852,25.5 L16.5,25.5 L16.5,22.5 Z M12,10.5 L15,10.5 L15,13.5 L12,13.5 L12,10.5 Z M12,16.5 L15,16.5 L15,19.5 L12,19.5 L12,16.5 Z M12,22.5 L15,22.5 L15,25.5 L12,25.5 L12,22.5 Z M27,30 L27,6 L30,6 L30,33 L6,33 L6,6 L9,6 L9,30 L27,30 Z M10.5187149,6 C10.5187149,4.34314575 11.8671788,3 13.5165351,3 L15.0131004,3 C15.0131004,1.34314575 16.3430335,0 18.0093575,0 C19.6641445,0 21.0056145,1.34205759 21.0056145,3 L22.5021798,3 C24.1578302,3 25.5,4.35014838 25.5,6.00156516 L25.5,7.5 L10.5,7.5 L10.5187149,6 Z" id="Shape" fill="#3057B3"></path>
+                    <path d="M0.00499930546,0.005 L0,35.995 L35.995,36 L36,0.005 L0.00499930546,0.005 Z" id="Path" stroke-opacity="0.01" stroke="#000000" stroke-width="0.01"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

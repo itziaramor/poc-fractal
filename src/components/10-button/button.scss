@@ -1,0 +1,291 @@
+// ------------------------------------------------------
+// BUTTON
+// ------------------------------------------------------
+
+.btn {
+  @include button;
+
+  // Colors
+  // ------------------------------------------------------
+  &--primary {
+    background-color: #679CF6;
+    background-image: linear-gradient(#679CF6, #4072EE);
+    color: $white;
+
+    &::after {
+      background-image: linear-gradient(#5C8CDC, #3A66D6);
+    }
+
+    @include hover {
+      color: $white;
+    }
+  }
+
+  &--secondary {
+    background-color: #676767;
+    background-image: linear-gradient(#676767, #000000);
+    color: $white;
+
+    &::after {
+      background-image: linear-gradient(#5B5B5B, #000000);
+    }
+
+    @include hover {
+      color: $white;
+    }
+  }
+
+  &--tertiary {
+    background-color: $blue-200;
+    background-image: linear-gradient(#0049B7, #002967);
+    color: $white;
+
+    &::after {
+      background-image: linear-gradient(#0041A2, #00245C);
+    }
+
+    @include hover {
+      color: $white;
+    }
+  }
+
+  &--quaternary {
+    background-color: $pink;
+    background-image: linear-gradient(#F66787, #EE4082);
+    color: $white;
+
+    &::after {
+      background-image: linear-gradient(#DC5C79, #D63A74);
+    }
+
+    @include hover {
+      color: $white;
+    }
+  }
+
+  &--inverse {
+    box-shadow: 0 1px 4px 0 $gray-200;
+    background-color: $white;
+    color: $gray-600;
+    text-align: left;
+
+    &::after {
+      display: none;
+    }
+
+    span {
+      font-weight: 400;
+    }
+
+    @include hover {
+      color: $gray-600;
+      span {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &--icon {
+    padding-left: rem(20px);
+
+    @include media-breakpoint-up(md) {
+      padding-left: rem(10px);
+    }
+    @include media-breakpoint-up(xl) {
+      padding-left: rem(20px);
+    }
+
+    @include hover {
+      .btn__icon {
+        color: $blue;
+      }
+    }
+
+    .btn__icon {
+      min-width: rem(24px);
+      margin-right: rem(15px);
+
+      @include media-breakpoint-up(md) {
+        min-width: rem(20px);
+        margin-right: rem(10px);
+      }
+      @include media-breakpoint-up(xl) {
+        min-width: rem(24px);
+        margin-right: rem(15px);
+      }
+    }
+  }
+
+  &--arrow {
+    padding-right: rem(15px);
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include media-breakpoint-up(md) {
+      padding-right: rem(10px);
+    }
+    @include media-breakpoint-up(xl) {
+      padding-right: rem(15px);
+    }
+
+    .btn__icon--arrow {
+      min-width: rem(24px);
+      color: $blue;
+      margin-right: 0;
+      margin-left: rem(20px);
+
+      @include media-breakpoint-up(md) {
+        min-width: rem(20px);
+        margin-left: rem(5px);
+      }
+      @include media-breakpoint-up(xl) {
+        min-width: rem(24px);
+        margin-left: rem(20px);
+      }
+    }
+  }
+
+  &--link {
+    background: none;
+    color: $gray-600;
+    text-decoration: underline;
+
+    &::after {
+      display: none;
+    }
+
+    @include hover {
+      color: $blue;
+      text-decoration: underline;
+    }
+  }
+}
+
+
+// Close
+// ------------------------------------------------------
+.btn--close {
+  min-width: inherit;
+  min-height: inherit;
+  width: rem(24px);
+  height: rem(24px);
+  padding: 0;
+  color: $blue;
+
+  .btn__icon {
+    width: rem(24px);
+    height: rem(24px);
+    margin: 0;
+    display: flex;
+
+    svg {
+      width: 100%;
+    }
+  }
+}
+
+
+// Toggle menu
+// ------------------------------------------------------
+.btn--menu {
+  margin: 0 rem(-16px) 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: auto;
+  width: $btn-menu-width;
+  height: $btn-menu-height;
+  border: 0;
+  background: none;
+  padding: 0;
+
+  &::after {
+    display: none;
+  }
+
+  // Icon
+  .btn__menu-icon {
+    position: relative;
+    display: block;
+    font-size: 48px;
+    width: 35px;
+    height: 2px;
+    color: $blue-200;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-repeat: no-repeat;
+    transform: scale(1);
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-image: inherit;
+      border-radius: inherit;
+    }
+  }
+
+  // menu to 'X' close
+  .btn__menu-icon--close {
+    background-size: 100% 100%;
+    will-change: transform, background-size;
+    transition: transform .2s, background-size .2s;
+
+    .btn--menu:active & {
+      transform: scale(0.9);
+    }
+
+    &::before,
+    &::after {
+      will-change: inherit;
+      transition: inherit;
+    }
+
+    &::before {
+      // line top
+      transform: translateY(-0.2em) rotate(0);
+    }
+
+    &::after {
+      // line bottom
+      transform: translateY(0.2em) rotate(0);
+    }
+  }
+
+}
+
+// When active
+.btn--menu[aria-expanded="true"] {
+  .btn__menu-icon--close {
+    background-size: 0 0;
+
+    &::before {
+      transform: translateY(0) rotate(45deg);
+    }
+
+    &::after {
+      transform: translateY(0) rotate(-45deg);
+    }
+  }
+}
+
+
+// ------------------------------------------------------
+// BUTTON HUAWEI, ERICSSON
+// ------------------------------------------------------
+.ericsson,
+.huawei {
+  .btn--menu {
+    // Icon
+    .btn__menu-icon {
+      color: $black;
+      background-image: linear-gradient(currentColor, currentColor);
+      background-repeat: no-repeat;
+    }
+  }
+
+}

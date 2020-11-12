@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+
+  <symbol id="factory" viewBox="0 0 24 24">
+    <g fill="none" fill-rule="evenodd">
+      <path fill="none" d="M24 0H0v24h24z"/>
+      <path d="M5 7l4-4 13 13v4h-4L5 7zM1 18l2 2h12l-2-2H1zM9 6L8 7l11 11h1v-1L9 6z" fill="currentColor"/>
+      <path d="M23.995.005L24 23.995.005 24 0 .005h23.995z" stroke-opacity=".01" stroke="#000" stroke-width=".01"/>
+    </g>
+  </symbol>
+
+  <symbol id="registry" viewBox="0 0 24 24">
+    <g fill="none" fill-rule="evenodd">
+      <path fill="none" d="M0 0h24v24H0z"/>
+      <path d="M21 2v20H8v-2h11V4H8V2h13zM9.214 6.3l5.706 5.707-5.706 5.707L7.8 16.3l3.23-3.3H1v-2h10.016L7.8 7.714 9.214 6.3z" fill="currentColor"/>
+      <path d="M.005.005L0 23.995 23.995 24 24 .005H.005z" stroke-opacity=".01" stroke="#000" stroke-width=".01"/>
+    </g>
+  </symbol>
+
+  <symbol id="delivery" viewBox="0 0 24 24">
+    <g fill="none" fill-rule="evenodd">
+      <path fill="none" d="M0 0h24v24H0z"/>
+      <path d="M12.976 15h2.99c.558 0 1.01.444 1.01 1 0 .552-.441 1-1.007 1H12c-1.166-1.017-4-3.5-4-3.5s-.5-.5-1.023-.5c-.523 0-1.321.552-1.459 1.17L4 21H2l1.566-7.264C3.906 12.203 5 11 6.977 11c1.023 0 1.843.416 2.018.569.992.865 3.981 3.431 3.981 3.431zM21 11l-3 10h2l3-10h-2zM7.976 8a2 2 0 100-4 2 2 0 000 4zm0 2a4 4 0 110-8 4 4 0 010 8z" fill="currentColor"/>
+      <path d="M.005.005L0 23.995 23.995 24 24 .005H.005z" stroke-opacity=".01" stroke="#000" stroke-width=".01"/>
+    </g>
+  </symbol>
+
+  <symbol id="installer" viewBox="0 0 24 24">
+    <g fill="none" fill-rule="evenodd">
+      <path fill="none" d="M0 0h24v24H0z"/>
+      <path d="M13.706 4.88l2.087-2.087 1.414 1.414-2.086 2.087a1.006 1.006 0 00-.006 1.415l1.177 1.183a.984.984 0 001.398.004l2.103-2.103 1.414 1.414-2.103 2.103a2.983 2.983 0 01-4.108.109l-4.582 3.995L9 13l4.585-4a3.006 3.006 0 01.121-4.12z" fill="currentColor"/>
+      <path d="M.005.005L0 23.995 23.995 24 24 .005H.005z" stroke-opacity=".01" stroke="#000" stroke-width=".01"/>
+      <path d="M1 13h3.83v10H1v-1.818h1.915v-6.364H1V13zm4.788 1.818V13h10.296c1.059 0 1.916.814 1.916 1.818 0 .133-.015.265-.046.395l-1.156 4.94C16.408 21.815 14.854 23 13.06 23H5.788v-1.818h7.271c.898 0 1.675-.592 1.87-1.424l1.156-4.94H5.787z" fill="currentColor"/>
+    </g>
+  </symbol>
+
+  <symbol id="site" viewBox="0 0 24 24">
+    <g fill="none" fill-rule="evenodd">
+      <path fill="none" d="M0 0h24v24H0z"/>
+      <path d="M21.94 6l1.124 17H1V10.234l5 3v-3l5 3v-3l5.178 3.107L17.105 6h4.834zm-1.88 2h-1.165l-1.073 8.66L13 13.765v3l-5-3v3l-5-3V21h17.936L20.06 8zM9 1a1 1 0 001 1h7a3 3 0 013 3h-2a1 1 0 00-1-1h-7a3 3 0 01-3-3h2z" fill="currentColor"/>
+      <path d="M.005.005L0 23.995 23.995 24 24 .005H.005z" stroke-opacity=".01" stroke="#000" stroke-width=".01"/>
+    </g>
+  </symbol>
+
+  <symbol id="maintenance" viewBox="0 0 24 24">
+    <g fill="none" fill-rule="evenodd">
+      <path fill="none" d="M0 0h24v24H0z"/>
+      <path d="M15.547 5.887a1 1 0 01-1.227-.437L12.92 3h-1.84l-1.4 2.45a1 1 0 01-1.227.437l-2.216-.852-1.202 1.202.975 2.536a1 1 0 01-.527 1.273L3 11.15v1.7l2.17.964a1 1 0 01.558 1.177l-.742 2.723 1.3 1.3 2.723-.742a1 1 0 011.177.558L11.15 21h1.7l.964-2.17a1 1 0 011.177-.558l2.723.742 1.3-1.3-.66-2.42a1 1 0 01.47-1.13L21 12.92v-1.84l-2.45-1.4a1 1 0 01-.437-1.227l.852-2.216-1.202-1.202-2.216.852zm.083-2.175l2.021-.777a1 1 0 011.067.226l2.12 2.121a1 1 0 01.227 1.067l-.777 2.02 2.208 1.263A1 1 0 0123 10.5v3a1 1 0 01-.504.868l-2.008 1.148.608 2.231a1 1 0 01-.257.97l-2.121 2.122a1 1 0 01-.97.257l-2.455-.669-.88 1.98A1 1 0 0113.5 23h-3a1 1 0 01-.914-.594l-.88-1.979-2.453.67a1 1 0 01-.97-.258L3.16 18.718a1 1 0 01-.257-.97l.669-2.455-1.98-.88A1 1 0 011 13.5v-3a1 1 0 01.594-.914l2.209-.981-.868-2.256a1 1 0 01.226-1.067l2.121-2.12a1 1 0 011.067-.227l2.02.777 1.263-2.208A1 1 0 0110.5 1h3a1 1 0 01.868.504l1.262 2.208zM12 16a4 4 0 110-8 4 4 0 010 8zm0-2a2 2 0 100-4 2 2 0 000 4z" fill="currentColor"/>
+      <path d="M.005.005L0 23.995 23.995 24 24 .005H.005z" stroke-opacity=".01" stroke="#000" stroke-width=".01"/>
+    </g>
+  </symbol>
+
+  <symbol id="center" viewBox="0 0 24 24">
+    <g fill="none" fill-rule="evenodd">
+      <path fill="none" d="M0 0h24v24H0z"/>
+      <path d="M15.793 2.793l1.414 1.414-2.086 2.087a1.006 1.006 0 00-.006 1.415l1.177 1.183a.984.984 0 001.398.004l2.103-2.103 1.414 1.414-2.103 2.103a2.983 2.983 0 01-4.108.109L4.707 20.707l-1.414-1.414L13.585 9a3.006 3.006 0 01.121-4.122l2.087-2.086zm-1.586 11l5.5 5.5-1.414 1.414-5.5-5.5 1.414-1.414zM4.354 4.646l5.5 5.5-.708.708-5.5-5.5.708-.708z" fill="currentColor"/>
+      <path d="M.005.005L0 23.995 23.995 24 24 .005H.005z" stroke-opacity=".01" stroke="#000" stroke-width=".01"/>
+    </g>
+  </symbol>
+
+  <symbol id="reports" viewBox="0 0 24 24">
+    <g fill="none" fill-rule="evenodd">
+      <path fill="none" d="M0 0h24v24H0z"/>
+      <path d="M20 9H10v12h10V9zm1-2a1 1 0 011 1v14a1 1 0 01-1 1H9a1 1 0 01-1-1V8a1 1 0 011-1h12zM7 6v14H5V5a1 1 0 011-1h12v2H7zM4 3v14H2V2a1 1 0 011-1h12v2H4z" fill="currentColor"/>
+      <path d="M.005.005L0 23.995 23.995 24 24 .005H.005z" stroke-opacity=".01" stroke="#000" stroke-width=".01"/>
+      <path stroke="#B8C5D3" stroke-linecap="square" d="M12.5 12.5h5M12.5 15h5M12.5 18h5"/>
+    </g>
+  </symbol>
+
+  <symbol id="import" viewBox="0 0 24 24">
+    <g fill="none" fill-rule="evenodd">
+      <path d="M4 16v2h16v-2h2v4H2v-4h2zm9-13v9.709l3.293-3.293 1.414 1.414L12 16.537 6.293 10.83l1.414-1.414L11 12.709V3h2z" fill="currentColor"/>
+      <path d="M.005.005L0 23.995 23.995 24 24 .005H.005z" stroke-opacity=".01" stroke="#000" stroke-width=".01"/>
+    </g>
+  </symbol>
+
+  <symbol id="barcode" viewBox="0 0 24 24">
+    <g fill="none" fill-rule="evenodd">
+      <path d="M2 4v16H0V4h2zm3 0v16H3V4h2zm8 0v16h-2V4h2zM8 4v16H6V4h2zm8 0v16h-2V4h2zm5 0v16h-2V4h2zm3 0v16h-2V4h2z" fill="currentColor"/>
+      <path d="M.005.005L0 23.995 23.995 24 24 .005H.005z" stroke-opacity=".01" stroke="#000" stroke-width=".01"/>
+    </g>
+  </symbol>
+
+  <symbol id="arrowRight" viewBox="0 0 24 24">
+    <g fill="none" fill-rule="evenodd">
+      <path fill="none" d="M0 0h24v24H0z"/>
+      <path fill="currentColor" d="M17.778 12L9 20.778l-1.414-1.414 7.359-7.37-7.288-7.287L9.07 3.293z"/>
+      <path d="M.005.005L0 23.995 23.995 24 24 .005H.005z" stroke-opacity=".01" stroke="#000" stroke-width=".01"/>
+    </g>
+  </symbol>
+
+  <symbol id="insert" viewBox="0 0 24 24">
+    <g fill="none" fill-rule="evenodd">
+      <path fill="none" d="M0 0h24v24H0z"/>
+      <path d="M.005.005L0 23.995 23.995 24 24 .005H.005z" stroke-opacity=".01" stroke="#000" stroke-width=".01"/>
+      <path d="M1.998 2v20h20V8H16v2s4 0 4-.048V14h-4.002L16 8H9.998V2h-8zM8 20H4v-4h4v4zm0-6H4v-4h4v4zm8 6H8v-4h8v4zm-2-6h-4v-4h4v4zm6 6h-4v-4h4v4zM8 8H4V4h4v4z" fill="currentColor"/>
+      <path stroke="#525A65" stroke-width="2" d="M9 3h6v6H9zM15 3h6v6h-6z"/>
+    </g>
+  </symbol>
+
+  <symbol id="plus" viewBox="0 0 23 24">
+    <g fill="currentColor" fill-rule="evenodd">
+      <path d="M10.667 0h2v24h-2z"/>
+      <path d="M22.922 11v2H.255v-2z"/>
+    </g>
+  </symbol>
+
+  <symbol id="list" viewBox="0 0 36 36">
+    <g fill="none" fill-rule="evenodd">
+      <path fill="none" d="M0 0h36v36H0z"/>
+      <path d="M16.5 10.5h7.592v3H16.5v-3zm0 6h7.592v3H16.5v-3zm0 6h7.592v3H16.5v-3zm-4.5-12h3v3h-3v-3zm0 6h3v3h-3v-3zm0 6h3v3h-3v-3zM27 30V6h3v27H6V6h3v24h18zM10.519 6c0-1.657 1.348-3 2.998-3h1.496c0-1.657 1.33-3 2.996-3a2.997 2.997 0 012.997 3h1.496A3.004 3.004 0 0125.5 6.002V7.5h-15l.019-1.5z" fill="currentColor"/>
+      <path d="M.005.005L0 35.995 35.995 36 36 .005H.005z" stroke-opacity=".01" stroke="#000" stroke-width=".01"/>
+    </g>
+  </symbol>
+
+  <symbol id="close" viewBox="0 0 24 24">
+    <g fill="currentColor" fill-rule="evenodd">
+      <path d="M17.396.926L18.81 2.34 1.84 19.31.426 17.896z"/>
+      <path d="M18.283 17.37l-1.414 1.413L.841 2.756 2.256 1.34z"/>
+    </g>
+  </symbol>
+
+
+</svg>

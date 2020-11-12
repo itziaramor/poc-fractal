@@ -1,0 +1,21 @@
+
+<div class="steps">
+  <ol class="steps-bar {{stepBarModifier}}" aria-label="Pasos de la solicitud">
+    {{#stepbar}}
+      {{#step}}
+      <li class="step-bar__item {{stepbarModifier}}">
+        <span class="step-bar__link">
+          <span class="sr-only">Paso actual:</span>
+          <span class="step-bar__icon">
+            <svg>
+              <use xlink:href="../../img/sprite.svg#{{stepbarIcon}}">
+            </svg>
+          </span>
+          <span class="step-bar__label">{{ label }}</span>
+          <span class="step-bar__note">{{ note }}</span>
+        </span>
+      </li>
+      {{/step}}
+    {{/stepbar}}
+  </ol>
+</div>

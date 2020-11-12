@@ -1,0 +1,43 @@
+{
+  "title": "Button",
+  "default": "Primary",
+  "context": {
+    "btnModifier": "btn--primary",
+    "btnText": "Botón primario"
+  },
+  "variants": [
+    {
+      "name": "Secondary",
+      "context": {
+        "btnModifier": "btn--secondary"
+      }
+    },
+    {
+      "name": "Tertiary",
+      "context": {
+        "btnModifier": "btn--tertiary"
+      }
+    },
+    {
+      "name": "Quaternary",
+      "context": {
+        "btnModifier": "btn--quaternary"
+      }
+    },
+    {
+      "name": "Special Action",
+      "context": {
+        "btnModifier": "btn--inverse btn--icon btn--arrow",
+        "btnIcon": true,
+        "btnIconType": "import",
+        "btnArrow": true
+      }
+    },
+    {
+      "name": "Link",
+      "context": {
+        "btnModifier": "btn--link"
+      }
+    }
+  ]
+}

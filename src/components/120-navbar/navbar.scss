@@ -1,0 +1,121 @@
+// ------------------------------------------------------
+// NAVBAR
+// ------------------------------------------------------
+
+.navbar {
+
+  @include media-breakpoint-up(md) {
+    display: flex;
+    box-shadow: 0 0 5px 0 $gray-200;
+    position: relative;
+    z-index: 10;
+  }
+
+  @include media-breakpoint-up(lg) {
+    justify-content: flex-end;
+  }
+
+
+  // Actions
+  // ------------------------------------------------------
+  &__actions {
+    padding: rem(12px) rem(16px);
+    background-color: $white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: ($zindex-navbar + 30);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    @include media-breakpoint-up(md) {
+      left: $navbar-column-mobile;
+      .btn--menu {
+        margin-left: auto;
+      }
+    }
+
+    @include media-breakpoint-up(md) {
+      display: none;
+    }
+  }
+
+  &__gohome {
+    @include media-breakpoint-up(md) {
+      display: none;
+    }
+  }
+
+
+  // body
+  // ------------------------------------------------------
+  &__body {
+    overflow-y: auto;
+    background-color: $white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: $zindex-navbar;
+    opacity: 0;
+    transform: translate3d(100vh, 0, 0);
+    transition: transform .5s cubic-bezier(0.19, 1, 0.22, 1),
+                opacity .35s;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -9999rem;
+      bottom: 0;
+      left: 0;
+      background-color: rgba($white, .975);
+    }
+
+    @include media-breakpoint-up(md) {
+      overflow-y: inherit;
+      width: 100%;
+      right: auto;
+      position: static;
+      z-index: auto;
+      max-width: none;
+      opacity: 1;
+      overflow: visible;
+      transform: none;
+
+      &::before {
+        display: none;
+      }
+    }
+  }
+
+
+  // Navbar is visible (only for mobile devices)
+  // ------------------------------------------------------
+  &--is-visible {
+    .navbar__body {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+    .navbar__actions {
+      background-image: none;
+    }
+  }
+
+  &__inner {
+    position: relative;
+    z-index: ($zindex-navbar + 10);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    @include media-breakpoint-up(lg) {
+      border-right: 0;
+    }
+  }
+
+}

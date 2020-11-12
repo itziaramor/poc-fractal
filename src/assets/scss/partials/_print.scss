@@ -1,0 +1,108 @@
+// ------------------------------------------------------
+// PRINT
+// ------------------------------------------------------
+
+.print {
+  padding: 10.5mm 25mm 10.5mm 20mm;
+
+
+  // Logos
+  // ------------------------------------------------------
+  &__logo {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 11mm;
+  }
+
+  .logo-melia {
+    margin-left: 11mm;
+  }
+
+
+  // Heading
+  // ------------------------------------------------------
+  &__heading {
+    margin-bottom: 27mm;
+  }
+
+  &__brand {
+    margin-bottom: 0;
+    color: #35b1e1;
+    font-size: rem(35px);
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+  }
+
+  &__claim {
+    margin-bottom: 0;
+    color: $gray-400;
+    font-size: rem(14px);
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+
+  // Body
+  // ------------------------------------------------------
+  &__body {
+    h2 {
+      font-size: rem(22px);
+    }
+
+    h3 {
+      color: $blue-200;
+      font-size: rem(14px);
+      text-transform: initial;
+    }
+
+    ul, ol {
+      padding-left: 0;
+      list-style: none;
+    }
+
+    ul li, .bullet {
+      position: relative;
+      padding-left: 16px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 8px;
+        left: 0;
+        width: rem(8px);
+        height: rem(8px);
+        border: 1px solid $blue-100;
+        border-radius: 50%;
+        background-color: $blue-200;
+        transition: background .25s;
+      }
+    }
+    
+    ol {
+      counter-reset: actionCounter;
+      li {
+        position: relative;
+        padding-left: 6mm;
+        &::before {
+          counter-increment: actionCounter;
+          content: counter(actionCounter);
+          position: absolute;
+          top: 3px;
+          left: 0;
+          min-width: 4mm;
+          color: $blue-200;
+          font-size: rem(12px);
+          font-weight: $font-weight-bold;
+          text-align: right;
+        }
+      }
+    }
+  }
+
+
+  // Page break
+  // ------------------------------------------------------
+  &__page-break {
+    page-break-after: always;
+  }
+}

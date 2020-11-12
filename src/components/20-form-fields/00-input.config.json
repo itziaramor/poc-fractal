@@ -1,0 +1,7 @@
+{
+  "title": "Input text",
+  "context": {
+    "inputLabel": "Label",
+    "inputPlaceholder": "Placeholder"
+  }
+}

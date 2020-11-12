@@ -1,0 +1,46 @@
+<div class="page">
+
+  {{> @navbar }}
+
+  <main class="main-content">
+    <article class="main-content__item">
+      <div class="main-content__header">
+        <h2 class="main-content__heading">
+          <span class="main-content__heading-icon">
+            <svg>
+              <use xlink:href="../../img/sprite.svg#center">
+            </svg>
+          </span>
+          {{pageHeading}}
+        </h2>
+        <h3 class="main-content__subheading">{{pageSubheading}}</h3>
+      </div>
+
+      <div class="main-content__content">
+        {{render '@progressbar'}}
+
+        <div class="main-content__actions main-content__actions--margin">
+          <div class="main-content__actions-col">
+            <form action="">
+              {{> @input-file btnIcon=true btnIconType="import" btnArrow=true inputLabel="Importar excel de materiales fabricados"}}
+              {{> @button--secondary btnModifier="btn--secondary" btnText="Enviar"}}
+            </form>
+          </div>
+
+        </div>
+        <p class="main-content__results">Resultados: 15-20 de 325</p>
+        {{> @table tableDate= true tableDescription=true}}
+        <div class="main-content__footer">
+          {{render '@pagination'}}
+
+          <div class="main-content__actions main-content__actions--fixed">
+            {{> @button--secondary btnModifier="btn--secondary" btnText="Guardar"}}
+            {{> @button--link btnModifier="btn--link" btnText="Cancelar"}}
+          </div>
+        </div>
+
+      </div>
+    </article>
+  </main>
+
+</div>

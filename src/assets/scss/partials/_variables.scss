@@ -1,0 +1,156 @@
+// ----------------------------------------------------------------------
+// VARIABLES
+// ----------------------------------------------------------------------
+
+
+// Color system
+// ----------------------------------------------------------------------
+$white:    #ffffff;
+$gray-100: #f4f5f9;
+$gray-200: #E5E9F2;
+$gray-400: #b8c5d3;
+$gray-500: #6B6B6B;
+$gray-600: #2c2c2c;
+$black:    #000;
+$blue:     #3057B3;
+$blue-200: #004BB1;
+$red:      #B33030;
+$pink:     #F66787;
+$pink-200: #EE4082;
+
+$danger:     $pink-200;
+
+
+// Body
+// ----------------------------------------------------------------------
+// Settings for the `<body>` element.
+$body-bg:                   $white;
+$body-color:                $gray-600;
+
+
+// Links
+// ----------------------------------------------------------------------
+// Style anchor elements.
+  $link-color:                              $blue;
+  $link-decoration:                         none;
+  $link-hover-color:                        darken($link-color, 15%);
+  $link-hover-decoration:                   underline;
+
+
+// Paragraphs
+// ----------------------------------------------------------------------
+// Style p element.
+$paragraph-margin-bottom:   1.5rem;
+
+
+// Grid settings
+// ------------------------------------------------------------------
+$grid-cols: (
+  cols: 12,
+  gutter-sm: 26,
+  gutter-md: 50,
+  gutter-lg: 30,
+);
+
+$grid-container-max-widths: (
+  sm: 540,
+  md: 720,
+  lg: 940,
+  xl: 1120,
+);
+
+$grid-breakpoints: (
+  sm: 576px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1200px,
+);
+
+$grid: map-merge($grid-container-max-widths, $grid-cols);
+
+$container-max-width:   1280px;
+$grid-columns:          4;
+$grid-gutter-width:     30px;
+
+
+// Typography
+// ----------------------------------------------------------------------
+$font-family-sans-serif:      'Inter', sans-serif;
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-base:            $font-family-sans-serif;
+
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-bold:            600;
+
+$font-weight-bolder:          $font-weight-bold;
+$font-weight-base:            $font-weight-light;
+
+$line-height-base:            1.9;
+
+$headings-font-family:        $font-family-base;
+$headings-font-weight:        600;
+$headings-line-height:        1.2;
+$headings-color:              $body-color;
+
+
+// Border
+// ----------------------------------------------------------------------
+$border-radius-base:          5px;
+$border-color-base:           #e2e5ed;
+
+
+// Form
+// ----------------------------------------------------------------------
+  $input-height:                2.625rem;
+  $input-border-color:          $border-color-base;
+  $input-border-radius:         0;
+  $input-color:                 $gray-400;
+  $label-color:                 $gray-400;
+  $label-margin-bottom:         .5rem;
+
+
+// Button
+// ----------------------------------------------------------------------
+$btn-height: 54px;
+$btn-padding-x: 32px;
+$btn-padding-y: 15px;
+$btn-margin-left: 15px;
+
+$btn-menu-width: 75px;
+$btn-menu-height: 54px;
+
+
+// Close button
+// ----------------------------------------------------------------------
+$close-padding:   4px;
+
+
+
+// Zindex
+// ----------------------------------------------------------------------
+$zindex-modal:    1100;
+$zindex-close:    1110;
+$zindex-navbar:   1000;
+
+
+// Animation
+// ----------------------------------------------------------------------
+$ease-in-out: cubic-bezier(0.645, 0.045, 0.355, 1);
+$ease-in:     cubic-bezier(0.55, 0.055, 0.675, 0.19);
+$ease-out:    cubic-bezier(0.215, 0.61, 0.355, 1);
+
+
+// Site header
+// ----------------------------------------------------------------------
+$site-header-padding-left-sm: 20px;
+$site-header-padding-left-md: 40px;
+
+
+// Navbar
+// ----------------------------------------------------------------------
+$navbar-column-mobile: 148px;
+$navbar-width: 290px;
+$navbar-actions-height: 66px;

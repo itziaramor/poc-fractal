@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
+    <title>Icons/24px/plant Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Pantallas" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop_02" transform="translate(-29.000000, -406.000000)">
+            <g id="Icons/24px/plant-Copy" transform="translate(29.000000, 406.000000)">
+                <rect id="Rectangle" fill-opacity="0" fill="#FF0000" x="0" y="0" width="24" height="24"></rect>
+                <path d="M21.9394512,6 L23.0644512,23 L1,23 L1,10.2338096 L6,13.2338096 L6,10.2338096 L11,13.2338096 L11,10.2338096 L16.1782089,13.3407349 L17.1049572,6 L21.9394512,6 Z M20.0605488,8 L18.8950428,8 L17.8217911,16.6592651 L13,13.7661904 L13,16.7661904 L8,13.7661904 L8,16.7661904 L3,13.7661904 L3,21 L20.9355488,21 L20.0605488,8 Z M9,1 C9,1.55228475 9.44771525,2 10,2 L17,2 C18.6568542,2 20,3.34314575 20,5 L18,5 C18,4.44771525 17.5522847,4 17,4 L10,4 C8.34314575,4 7,2.65685425 7,1 L9,1 Z" id="Combined-Shape" fill="#B8C5D3"></path>
+                <path d="M0.00499895812,0.005 L0,23.995 L23.995,24 L24,0.005 L0.00499895812,0.005 Z" id="Path" stroke-opacity="0.01" stroke="#000000" stroke-width="0.01"></path>
+            </g>
+        </g>
+    </g>
+</svg>

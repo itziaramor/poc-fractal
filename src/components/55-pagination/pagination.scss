@@ -1,0 +1,100 @@
+// ------------------------------------------------------
+// PAGINATION
+// ------------------------------------------------------
+
+.pagination {
+  max-width: rem(268px);
+  margin-bottom: 0;
+  padding: rem(9px) 0;
+  border-radius: $border-radius-base;
+  box-shadow: 0 1px 4px 0 $gray-200;
+  background-color: $white;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+
+  .page-item {
+    min-width: rem(38px);
+    width: 100%;
+    min-height: rem(38px);
+    padding: rem(3px);
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    &--active {
+      .page-link {
+        background-color: #679CF6;
+        background-image: linear-gradient(#679CF6, #4072EE);
+        color: $white;
+      }
+    }
+
+    @include hover {
+      .page-link:not(.page-link--arrow) {
+        background-color: #679CF6;
+        background-image: linear-gradient(#679CF6, #4072EE);
+        color: $white;
+        text-decoration: none;
+      }
+    }
+  }
+  .page-link {
+    width: 100%;
+    height: 100%;
+    border-radius: $border-radius-base;
+    font-size: rem(12px);
+    font-weight: 400;
+    color: $gray-600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-out 0.3s;
+  }
+}
+
+// ------------------------------------------------------
+// PAGINATION ERICSSON
+// ------------------------------------------------------
+.ericsson {
+  .pagination {
+    .page-item {
+      &--active {
+        .page-link {
+          background-color: #004BB1;
+          background-image: linear-gradient(#004BB1, #00285D);
+        }
+      }
+
+      @include hover {
+        .page-link:not(.page-link--arrow) {
+          background-color: #004BB1;
+          background-image: linear-gradient(#004BB1, #00285D);
+        }
+      }
+    }
+  }
+}
+
+// ------------------------------------------------------
+// PAGINATION HUAWEI
+// ------------------------------------------------------
+.huawei {
+  .pagination {
+    .page-item {
+      &--active {
+        .page-link {
+          background-color: #FF102D;
+          background-image: linear-gradient(#FF102D, #B30000);
+        }
+      }
+
+      @include hover {
+        .page-link:not(.page-link--arrow) {
+          background-color: #FF102D;
+          background-image: linear-gradient(#FF102D, #B30000);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+// ------------------------------------------------------
+// INPUT FILE
+// ------------------------------------------------------
+.form-control {
+  &--input {
+    width: auto;
+    margin-bottom: 0;
+    display: inline-flex;
+
+    .btn {
+      margin-bottom: 0;
+    }
+  }
+
+  &__upload-name {
+    margin-top: rem(16px);
+    font-size: rem(16px);
+    font-weight: 400;
+    line-height: rem(20px);
+    color: $gray-600;
+  }
+}

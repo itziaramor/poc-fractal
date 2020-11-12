@@ -1,0 +1,10 @@
+{
+  "title": "Input file",
+  "context": {
+    "inputLabel": "Label",
+    "inputType": "text",
+    "btnIcon": true,
+    "btnIconType": "import",
+    "btnArrow": true
+  }
+}

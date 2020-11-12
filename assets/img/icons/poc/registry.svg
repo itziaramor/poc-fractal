@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
+    <title>Icons/24px/checkin Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Pantallas" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop_01_Huawei" transform="translate(-29.000000, -266.000000)">
+            <g id="Group-4" transform="translate(29.000000, 266.000000)">
+                <g id="Icons/24px/checkin-Copy">
+                    <rect id="Rectangle" fill-opacity="0" fill="#FF0000" x="0" y="0" width="24" height="24"></rect>
+                    <path d="M21,2 L21,22 L8,22 L8,20 L19,20 L19,4 L8,4 L8,2 L21,2 Z M9.21398381,6.30000019 L14.9200001,12.007107 L9.21398381,17.7142138 L7.80000019,16.3000002 L11.0296185,13 L1,13 L1,11 L11.0156375,11 L7.80000019,7.71421375 L9.21398381,6.30000019 Z" id="Combined-Shape" fill="#B2C5D7"></path>
+                    <path d="M0.00499895812,0.005 L0,23.995 L23.995,24 L24,0.005 L0.00499895812,0.005 Z" id="Path" stroke-opacity="0.01" stroke="#000000" stroke-width="0.01"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

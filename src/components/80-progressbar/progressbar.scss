@@ -1,0 +1,151 @@
+// ------------------------------------------------------
+// STEPSBAR
+// ------------------------------------------------------
+.steps {
+  width: calc(100% + 40px);
+  position: relative;
+  left: rem(-20px);
+  overflow: hidden;
+
+  @include media-breakpoint-up(sm) {
+    width: calc(100% + 40px);
+    left: rem(-25px);
+  }
+   @include media-breakpoint-up(lg) {
+    width: auto;
+    left: 0;
+  }
+}
+.steps-bar {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.step-bar__item {
+  @include rem(min-height, 48px);
+  position: relative;
+  //flex: 1 0 0%;
+  flex: 0 1 100%;
+  // width: 20%;
+  color: $gray-100;
+
+  @include media-breakpoint-up(lg) {
+    width: 20%;
+    flex: inherit;
+  }
+
+  &:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    top: rem(38px);
+    left: 0;
+    z-index: 2;
+    width: calc(100% + 20px);
+    border-top: 8px solid $white;
+
+    @include media-breakpoint-up(sm) {
+      width: 100%;
+      left: rem(48px);
+    }
+  }
+
+  &:nth-child(n+4) {
+    display: none;
+
+    @include media-breakpoint-up(sm) {
+      display: block;
+    }
+  }
+}
+
+.step-bar__link {
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: $blue;
+  line-height: 1.3;
+  text-align: center;
+  text-decoration: none;
+
+  @include media-breakpoint-up(lgs) {
+    width: rem(100px);
+  }
+}
+
+.step-bar__label {
+  @include rem(margin-top, 26px);
+  display: inline-block;
+  font-size: rem(12px);
+  font-weight: 400;
+  color: $gray-400;
+  z-index: 6;
+}
+
+.step-bar__icon {
+  width: rem(30px);
+  height: rem(30px);
+  margin: 0 0 14px -2px;
+  font-size: 22px;
+  position: relative;
+  bottom: -26px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: $gray-400;
+  background-color: $white;
+
+  svg {
+    width: rem(16px);
+    height: rem(16px);
+  }
+}
+
+// Current step
+// -----------------------------------------------------------------------------
+.step-bar__item--current {
+  .step-bar__icon {
+    background-color: #679CF6;
+    background-image: linear-gradient(#679CF6, #4072EE);
+    box-shadow: 0 5px 15px 0 $gray-400;
+
+    svg {
+      color: $white;
+    }
+  }
+  .step-bar__label {
+    font-weight: 700;
+    color: $gray-600;
+  }
+}
+
+
+
+// PROGRESSBAR ERICSSON
+// -----------------------------------------------------------------------------
+.ericsson {
+  .step-bar__item--current {
+    .step-bar__icon {
+      background-color: #004BB1;
+      background-image: linear-gradient(#004BB1, #00285D);
+    }
+  }
+}
+
+
+// PROGRESSBAR HUAWEI
+// -----------------------------------------------------------------------------
+.huawei {
+  .step-bar__item--current {
+    .step-bar__icon {
+      background-color: #FF102D;
+      background-image: linear-gradient(#FF102D, #B30000);
+    }
+  }
+}

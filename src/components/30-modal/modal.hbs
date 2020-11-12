@@ -1,0 +1,43 @@
+<button class="btn btn--primary" aria-controls="modal1">
+  <span>Show modal window</span>
+</button>
+
+<div class="modal js-modal" id="modal1" data-animation="on">
+  <div class="modal__content max-width-xs" role="alertdialog" tabindex="-1" aria-labelledby="modalTitle1" aria-describedby="modalDescription1">
+    <header class="modal__header">
+      <h2 class="modal__heading">
+        <span class="modal__heading-icon">
+          <svg>
+          <use xlink:href="../../img/sprite.svg#insert">
+          </svg>
+        </span>
+        <span>Inserción manual de materiales</span>
+      </h2>
+    </header>
+
+    <div class="modal__body">
+      <div class="form-box">
+        <form action="" class="form-request">
+          <div class="form-box__content">
+            <div class="form-box__col">
+              {{> @input inputLabel="SN" inputValue="9873873234"}}
+              {{> @input inputLabel="SKU" inputValue="2019-1902-0" formControlModifier="form-control--error"}}
+              {{> @input inputLabel="ID MASTER" inputValue="CO_1183823"}}
+              {{> @input inputLabel="TIPO"  inputValue="850"}}
+            </div>
+            <div class="form-box__col">
+              {{> @input inputLabel="TECNOLOGÍA" inputValue="WCDMA"}}
+              {{> @input inputLabel="PROVEEDOR" inputValue="HUAWEI"}}
+              {{> @input inputLabel="FECHA" inputType="date" inputValue="26/09/2019"}}
+            </div>
+          </div>
+
+          {{> @button--primary btnModifier="btn--primary" btnText="Guardar"}}
+        </form>
+      </div>
+    </div>
+
+    {{> @button--close }}
+  </div>
+
+</div>

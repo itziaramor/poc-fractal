@@ -1,0 +1,59 @@
+// ------------------------------------------------------
+// PAGE
+// ------------------------------------------------------
+
+// Grid
+// ------------------------------------------------------
+.page {
+  overflow: hidden;
+  background-color: $gray-100;
+
+  @include media-breakpoint-up(md) {
+    display: flex;
+    height: 100vh;
+
+    .navbar {
+      flex: 1 0 265px;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .navbar {
+      min-height: 100%;
+      flex: 1 0 327px;
+      //max-width: 832px;
+    }
+    .main-content {
+      min-height: 100%;
+      flex: 0 1 100%;
+      background-color: $gray-100;
+
+    }
+  }
+
+  // &__divider {
+  //   padding: $paragraph-margin-bottom 0;
+  //   &--top {
+  //     border-top: 1px solid $gray-500;
+  //   }
+  //   &--bottom {
+  //     border-bottom: 1px solid $gray-500;
+  //   }
+  // }
+
+
+  // If browser support display: grid
+  // ------------------------------------------------------
+  // @supports (display: grid) {
+
+  //   @include media-breakpoint-up(md) {
+  //     display: grid;
+  //     grid-template-columns: $navbar-column-mobile 1fr;
+  //   }
+
+  //   @include media-breakpoint-up(lg) {
+  //     grid-template-columns: minmax(348px, 832px) minmax(674px, 1fr);
+  //   }
+
+  // }
+}
